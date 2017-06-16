@@ -1,3 +1,113 @@
+/* background */
+
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-image: url("images/background.jpg");
+    background-color: lightgray;
+	font-size: 62.5%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+header,
+main,
+footer {
+	font-size: 1.6em;
+}
+
+header {
+	padding: 1.875em 0;
+    display: block;
+}
+
+header h1 {
+	text-align: right;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+h1 {
+	font-size: 2.5em;
+    float: right;
+    color: white;
+}
+
+main h2 {
+	padding: 0.625em 0 0.625em 0.625em;
+}
+
+section {
+	margin: 1.875em 0;
+}
+
+section:first-child {
+	margin-top: 0;
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+
+nav ul {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 0.75em;
+}
+
+p {
+	padding: 1.25em;
+    width: 50%;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+footer {
+	text-align: right;
+	padding: 3em;
+}
+
+footer p {
+	display: inline-block;
+}
+
+img {
+    width: 100%;
+    max-width: 35%;
+}
+
+
+@media screen and (max-width: 680px) {
+	nav ul li {
+		margin: 1em 0;
+		display: block;
+		font-size: 1em;
+	}
+	body {
+		font-size: 50%;
+	}
+}
+
+
+
 html {
     display: block;
 }
@@ -12,14 +122,24 @@ p, li a, figcaption {
     font-family: "Bubbler One", sans-serif;
 }
 
-/* Background */
 
-body {
-    background-image: url("images/background.jpg");
+.photo_right {
+    text-align: right;
+    float: inherit;
+    color: white;
 }
 
-/* Header */
 
-header h1 {
-    text-align: left;
+#stevawn h2, #stevawn p, #noah h2, #noah p {
+    float: left;
+    clear: both;
 }
+
+
+#aaron h2, #aaron p, #ethan h2, #ethan p {
+    float: right;
+    color: white;
+    clear: both;
+    text-align: right;
+}
+
