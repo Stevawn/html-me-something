@@ -1,0 +1,25 @@
+html {
+    display: block;
+}
+
+/* Fonts */
+
+h1, h2 {
+    font-family: "Dancing Script", cursive;
+}
+
+p, li a, figcaption {
+    font-family: "Bubbler One", sans-serif;
+}
+
+/* Background */
+
+body {
+    background-image: url("images/background.jpg");
+}
+
+/* Header */
+
+header h1 {
+    text-align: left;
+}
